@@ -35,7 +35,6 @@ namespace API
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddScoped<ITokenService, TokenService>();
             services.AddApplicationServices(Configuration);
             services.AddControllers();
             
